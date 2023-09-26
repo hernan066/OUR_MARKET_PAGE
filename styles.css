@@ -347,7 +347,6 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  flex-wrap: wrap;
 }
 
 .contact::before {
@@ -641,6 +640,7 @@ body {
   }
   .contact {
     padding: 40px 20px;
+    flex-wrap: wrap;
   }
   .left h2 {
     text-align: center;
