@@ -1,277 +1,326 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Our Market</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="nav">
-      <div class="container">
-        <a href="/index.html">
-          <div class="logo">
-            <img src="/assets/images/logo.png" />
-          </div>
-        </a>
-        <ul id="links__menu">
-          <li><a href="#" class="current">Inicio</a></li>
-          <li><a href="#app">La App</a></li>
-          <li><a href="#function">Mejoras</a></li>
-          <li><a href="#">Reseñas</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-        <div class="menu-toggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-      </div>
+        <div class="container">
+            <a href="#home">
+                <div class="logo">
+                    <img src="/assets/images/logo.png" />
+                </div>
+            </a>
+            <ul id="links__menu">
+                <li><a href="#home" class="menu">Inicio</a></li>
+                <li><a href="#software" class="menu">Software</a></li>
+                <li><a href="#como_funciona" class="menu">Como funciona</a></li>
+                <li><a href="#nosotros" class="menu">Nosotros</a></li>
+
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
 
-    <section class="banner">
-      <div class="title__container">
-        <h1>OPTIMIZANDO EL FUTURO</h1>
-        <p>
-          Nueva colaboración para transformar pequeñas, mediana y grandes
-          empresas.
-        </p>
-      </div>
+    <section class="banner" id="home">
+        <div class="container">
+
+            <div class="title__container">
+                <h1>OPTIMIZANDO EL FUTURO</h1>
+                <p>
+                    Nueva colaboración para transformar pequeñas, mediana y grandes
+                    empresas.
+                </p>
+            </div>
+        </div>
     </section>
 
     <section class="app">
-      <div class="left">
-        <h2>
-          Reinventando la <br />
-          tecnología móvil
-        </h2>
-      </div>
-      <div class="right">
-        <div class="text__container">
-          <h3>Únete a más de un millón de usuarios</h3>
-          <p>
-            Únete a más de un millón de usuarios Párrafo. Haz clic para editar y
-            agregar tu propio texto. Es fácil. Haz clic en "Editar texto" o
-            doble clic aquí para agregar tu contenido y cambiar la fuente.
-            Puedes arrastrar y soltar este texto donde quieras en tu página. En
-            este espacio puedes contar tu historia y permitir a los usuarios
-            saber más sobre ti.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="function">
-      <h2>Nuestro software</h2>
-      <p>
-        Genera estadísticas relevantes que aumentan la <br />
-        productividad de la empresa/negocio.
-      </p>
-      <div class="function__col">
-        <article class="col">
-          <i class="fa-solid fa-star"></i>
-          <h3>Mejora la <br />gestión</h3>
-          <p>
-            Permitir a los comercios centralizar sus operaciones, gestionar
-            clientes de manera efectiva y optimizar procesos internos.
-          </p>
-        </article>
-        <article class="col">
-          <i class="fa-solid fa-user"></i>
-          <h3>Mejora la relación<br />con el cliente</h3>
-          <p>
-            Responder proactivamente a las necesidades de los clientes de manera
-            mas efectiva, mejorando su experiencia y fortaleciendo la relación
-            entre ambos.
-          </p>
-        </article>
-        <article class="col">
-          <i class="fa-solid fa-bolt"></i>
-          <h3>Facilita el crecimiento<br />económico</h3>
-          <p>
-            Centralizar la información trabajo para identificar oportunidades de
-            mejoras y nuevas estrategias para aumentar los ingresos.
-          </p>
-        </article>
-      </div>
-    </section>
-    <section class="how_work">
-        <div class="how_work__container">
-            <h2>Cómo funciona</h2>
-            <div class="how_work__flex">
+        <div class="container">
+            <div class="flex">
 
-                <div class="how_work__desktop_text">
-                    <h3>Datos centralizados</h3>
-                    <p>Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en "Editar texto" o doble clic aquí para agregar tu contenido y cambiar la fuente.</p>
+                <div class="left">
+                    <h2>
+                        Reinventando la <br />
+                        tecnología móvil
+                    </h2>
                 </div>
-                <div class="how_work__desktop_img">
-                    <div class="img_container">
-
-                        <img src="https://ik.imagekit.io/mrprwema7/OurMarket/New%20Project_nrpo8JAVc.png?updatedAt=1695684897661" alt="pc">
+                <div class="right">
+                    <div class="text__container">
+                        <h3>Únete a más de un millón de usuarios</h3>
+                        <p>
+                            Únete a más de un millón de usuarios Párrafo. Haz clic para editar y
+                            agregar tu propio texto. Es fácil. Haz clic en "Editar texto" o
+                            doble clic aquí para agregar tu contenido y cambiar la fuente.
+                            Puedes arrastrar y soltar este texto donde quieras en tu página. En
+                            este espacio puedes contar tu historia y permitir a los usuarios
+                            saber más sobre ti.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="how_work__flex-mobile">
+        </div>
+    </section>
 
-                <div class="how_work__mobile_img">
-                    <div class="img_container_mobile">
+    <section class="function" id="software">
 
-                        <img src="https://ik.imagekit.io/mrprwema7/OurMarket/New_Project__2_-removebg-preview_9hjommZau7.png?updatedAt=1695687700318" alt="mobile">
+        <div class="container">
+            <h2>Nuestro software</h2>
+            <p>
+                Genera estadísticas relevantes que aumentan la <br />
+                productividad de la empresa/negocio.
+            </p>
+            <div class="function__col">
+                <article class="col">
+                    <i class="fa-solid fa-star"></i>
+                    <h3>Mejora la <br />gestión</h3>
+                    <p>
+                        Permitir a los comercios centralizar sus operaciones, gestionar
+                        clientes de manera efectiva y optimizar procesos internos.
+                    </p>
+                </article>
+                <article class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Mejora la relación<br />con el cliente</h3>
+                    <p>
+                        Responder proactivamente a las necesidades de los clientes de manera
+                        mas efectiva, mejorando su experiencia y fortaleciendo la relación
+                        entre ambos.
+                    </p>
+                </article>
+                <article class="col">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Facilita el crecimiento<br />económico</h3>
+                    <p>
+                        Centralizar la información trabajo para identificar oportunidades de
+                        mejoras y nuevas estrategias para aumentar los ingresos.
+                    </p>
+                </article>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="how_work" id="como_funciona">
+
+        <div class="container">
+
+            <div class="how_work__container">
+                <h2>Cómo funciona</h2>
+                <div class="how_work__flex">
+
+                    <div class="how_work__desktop_text">
+                        <h3>Datos centralizados</h3>
+                        <p>Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en "Editar
+                            texto" o doble clic aquí para agregar tu contenido y cambiar la fuente.</p>
+                    </div>
+                    <div class="how_work__desktop_img">
+                        <div class="img_container">
+
+                            <img src="https://ik.imagekit.io/mrprwema7/OurMarket/New%20Project_nrpo8JAVc.png?updatedAt=1695684897661"
+                                alt="pc">
+                        </div>
                     </div>
                 </div>
+                <div class="how_work__flex-mobile">
 
-                <div class="how_work__mobile_text">
-                    <h3>Tecnología en la nube</h3>
-                    <p>Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en "Editar texto" o doble clic aquí para agregar tu contenido y cambiar la fuente.</p>
+                    <div class="how_work__mobile_img">
+                        <div class="img_container_mobile">
+
+                            <img src="https://ik.imagekit.io/mrprwema7/OurMarket/New_Project__2_-removebg-preview_9hjommZau7.png?updatedAt=1695687700318"
+                                alt="mobile">
+                        </div>
+                    </div>
+
+                    <div class="how_work__mobile_text">
+                        <h3>Tecnología en la nube</h3>
+                        <p>Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en "Editar
+                            texto" o doble clic aquí para agregar tu contenido y cambiar la fuente.</p>
+                    </div>
+
                 </div>
-               
             </div>
         </div>
 
     </section>
 
-    <section class="about">
-      <div class="left">
-        <h2>Nosotros</h2>
-      </div>
-      <div class="right">
-        <div class="text__container">
-          <h3>Estamos convencidos de que todos podemos crecer</h3>
-          <p>
-            OurMarket, al integrar tecnología avanzada en la gestión
-            empresarial, tiene como objetivo crear nuevos puestos de trabajo al
-            expandir sus operaciones. Al proporcionar soluciones eficientes y
-            tecnológicas, la plataforma OurMarket ofrece oportunidades para que
-            las personas se familiaricen con las últimas tecnologías y adquieran
-            habilidades valiosas en el entorno empresarial moderno.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="clients">
-      <h2>
-        Clientes <br />
-        satisfechos
-      </h2>
-      <div class="clientes__col">
-        <article class="cliente__card">
-          <i class="fa-solid fa-quote-left"></i>
-          <p class="testimony">
-            "Testimonio. Haz clic aquí para editar y agrega texto que diga algo
-            bueno sobre ti y tus servicios."
-          </p>
-          <p><strong>Joaquín Mares</strong></p>
-          <div class="row_start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </article>
-        <article class="cliente__card">
-          <i class="fa-solid fa-quote-left"></i>
-          <p class="testimony">
-            "Testimonio. Haz clic aquí para editar y agrega texto que diga algo
-            bueno sobre ti y tus servicios."
-          </p>
-          <p><strong>Joaquín Mares</strong></p>
-          <div class="row_start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </article>
-        <article class="cliente__card">
-          <i class="fa-solid fa-quote-left"></i>
-          <p class="testimony">
-            "Testimonio. Haz clic aquí para editar y agrega texto que diga algo
-            bueno sobre ti y tus servicios."
-          </p>
-          <p><strong>Joaquín Mares</strong></p>
-          <div class="row_start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="contact" id="contact">
-      <div class="left">
-        <h2>
-          Comunícate con <br />
-          nosotros
-        </h2>
-      </div>
-      <div class="right">
-        <div class="text__container">
-          <form action="" method="get">
-            <div class="form__row">
-              <div class="form__col">
-                <label for="name">Nombre*</label>
-                <input type="text" name="name" required />
-              </div>
-              <div class="form__col">
-                <label for="name">Apellido*</label>
-                <input type="text" name="lastName" required />
-              </div>
-            </div>
-            <div class="form__col">
-              <label for="email">Email*</label>
-              <input type="email" name="email" required />
-            </div>
-            <div class="form__col">
-              <label for="msg">Déjanos tu mensaje</label>
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="flex">
 
-              <textarea name="msg" id="msg" cols="30" rows="7"></textarea>
-              <button type="submit" class="send__btn">Enviar</button>
+                <div class="left">
+                    <h2>Nosotros</h2>
+                </div>
+                <div class="right">
+                    <div class="text__container">
+                        <h3>Estamos convencidos de que todos podemos crecer</h3>
+                        <p>
+                            OurMarket, al integrar tecnología avanzada en la gestión
+                            empresarial, tiene como objetivo crear nuevos puestos de trabajo al
+                            expandir sus operaciones. Al proporcionar soluciones eficientes y
+                            tecnológicas, la plataforma OurMarket ofrece oportunidades para que
+                            las personas se familiaricen con las últimas tecnologías y adquieran
+                            habilidades valiosas en el entorno empresarial moderno.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </form>
         </div>
-      </div>
+
+
+    </section>
+    <section class="clients" id="clientes">
+
+        <div class="container">
+            <h2>
+                Clientes <br />
+                satisfechos
+            </h2>
+            <div class="clientes__col">
+                <article class="cliente__card">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="testimony">
+                        "Testimonio. Haz clic aquí para editar y agrega texto que diga algo
+                        bueno sobre ti y tus servicios."
+                    </p>
+                    <p><strong>Joaquín Mares</strong></p>
+                    <div class="row_start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </article>
+                <article class="cliente__card">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="testimony">
+                        "Testimonio. Haz clic aquí para editar y agrega texto que diga algo
+                        bueno sobre ti y tus servicios."
+                    </p>
+                    <p><strong>Joaquín Mares</strong></p>
+                    <div class="row_start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </article>
+                <article class="cliente__card">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="testimony">
+                        "Testimonio. Haz clic aquí para editar y agrega texto que diga algo
+                        bueno sobre ti y tus servicios."
+                    </p>
+                    <p><strong>Joaquín Mares</strong></p>
+                    <div class="row_start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="flex">
+
+                <div class="left">
+                    <h2>
+                        Comunícate con <br />
+                        nosotros
+                    </h2>
+                </div>
+                <div class="right">
+                    <div class="text__container">
+                        <form action="https://formsubmit.co/hernan0066@gmail.com" method="POST" id="myForm">
+                            <div class="form__row">
+                                <div class="form__col">
+                                    <label for="name">Nombre*</label>
+                                    <input type="text" name="nombre" required />
+                                </div>
+                                <div class="form__col">
+                                    <label for="name">Apellido*</label>
+                                    <input type="text" name="apellido" required />
+                                </div>
+                            </div>
+                            <div class="form__col">
+                                <label for="email">Email*</label>
+                                <input type="email" name="email" required />
+                            </div>
+                            <div class="form__col">
+                                <label for="msg">Déjanos tu mensaje</label>
+
+                                <textarea name="mensaje" id="msg" cols="30" rows="7"></textarea>
+                                <button type="submit" class="send__btn" id="send_email">Enviar</button>
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+                                <!-- <input type="hidden" name="_captcha" value="false"> -->
+                                <p class="msg"></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </section>
     <!-- Site footer -->
     <footer class="footer">
-     
-      
-          <div class="copyright">
-            <p class="copyright-text">
-              Copyright &copy; 2023 All Rights Reserved by
-              <a href="#">Our Market</a>.
-            </p>
-          </div>
+        <div class="container">
+            <div class="flex center-sp" style="flex-wrap: wrap-reverse;">
 
-          <div class="social">
-            <ul class="social-icons">
-              <li>
-                <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></i></a>
-              </li>
-              <li>
-                <a class="twitter" href="#"><i class="fa-brands fa-instagram"></i></a>
-              </li>
-              <li>
-                <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-              </li>
-              <li>
-                <a class="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
+                <div class="copyright">
+                    <p class="copyright-text">
+                        Copyright &copy; 2023 All Rights Reserved by
+                        <a href="#">Our Market</a>.
+                    </p>
+                </div>
+
+                <div class="social">
+                    <ul class="social-icons">
+                        <li>
+                            <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                        </li>
+                        <li>
+                            <a class="twitter" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a class="linkedin" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
+        </div>
+        </div>
+
     </footer>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
